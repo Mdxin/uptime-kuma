@@ -32,3 +32,8 @@ deploy:
 #     forward:
 #       - 8080:80
 
+dev:
+  api:
+    command: ["bash"]
+    forward:
+      - 3001:3001
